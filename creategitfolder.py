@@ -50,7 +50,7 @@ headers = {
     "Accept": "application/vnd.github+json"
 }
 r = requests.post(API_URL+"user/repos", data=payload, headers=headers)
-pprint(r.json)
+pprint(r.json())
     
 # add all files (README.md)    
 repository.index.add(["README.md", main_file_name])
