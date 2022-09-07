@@ -1,2 +1,2 @@
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = "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"
 path = "D:\Projects"
